@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esperesso>
+
+	<output name="Savannah" style="Timeless Tradition" src="filters/timeless.png"  description="Polished. Polite. Refined. Savannah has unique mitered joinery at each corner, a detailed raised center panel and beaded edges. Prepare to be charmed by this full overlay beauty.">
+
+		<attribute name="Overlay"> <key value="Full Overlay" /> <key value="Full Overlay second " /></attribute>
+		<attribute name="Door"> <key value="Speciality" /> <key value="Speciality Second" /></attribute>
+		 <attribute name="Drawer Front"> <key value="5 door overlay" /> <key value="5 door Overlay second " /></attribute>
+
+		<woodtype name="maple" src="filters/maple.png" >
+			<color name="hazelnut glaze" src="filters/maple_hg.png" >
+				<img src="slides/Savannah-Maple-Hazelnut-Vanity1.jpg" room="bathroom"/>
+				<img src="slides/Savannah-Maple-Hazelnut-Vanity2.jpg" room="bathroom"/>
+				<img src="slides/Savannah-Maple-Hazelnut-Vanity3.jpg" room="bathroom"/>
+				<img src="slides/Savannah-Maple-Hazelnut-Vanity4.jpg" room="bathroom"/>
+				<img src="slides/Savannah-Maple-Hazelnut-Vanity5.jpg" room="bathroom"/>
+			</color>
+			<color name="butterscotch glaze" src="filters/maple_bg.png" >
+				<img src="slides/Savannah-Maple-Butterscotch-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Savannah-Maple-Butterscotch-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Savannah-Maple-Butterscotch-Kit3.jpg" room="kitchen"/>
+				<img src="slides/Savannah-Maple-Butterscotch-Kit4.jpg" room="kitchen"/>
+				<img src="slides/Savannah-Maple-Butterscotch-Kit5.jpg" room="kitchen"/>
+			</color>
+			<color name="cream glax" src="filters/maple_crg.png" ></color>
+			<color name="linen" src="filters/maple_li.png" >
+				<img src="slides/Savannah-Maple-Linen-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Savannah-Maple-Linen-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Savannah-Maple-Linen-Kit3.jpg" room="kitchen"/>
+				<img src="slides/Savannah-Maple-Linen-Kit4.jpg" room="kitchen"/>
+				<img src="slides/Savannah-Maple-Linen-Kit5.jpg" room="kitchen"/>
+			</color>	
+			<color name="espresso" src="filters/maple_es.png" ></color>
+			<color name="auburn glaze" src="filters/maple_ag.png" ></color>
+			<color name="cognac" src="filters/maple_co.png" ></color>
+			<color name="mocha glaze" src="filters/maple_mg.png" ></color>
+			<color name="spice" src="filters/maple_sp.png" ></color>
+			<color name="coffee glaze" src="filters/maple_cg.png" >
+				<img src="slides/Savannah-Maple-Coffee-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Savannah-Maple-Coffee-Kit4.jpg" room="kitchen"/>
+				<img src="slides/Savannah-Maple-Coffee-Kit5.jpg" room="kitchen"/>
+			</color>
+			<color name="honey" src="filters/maple_ho.png" ></color>
+			<color name="natural" src="filters/maple_na.png" ></color>
+		</woodtype>
+		<woodtype name="cherry" src="filters/cherry.png" >
+			<color name="spice" src="filters/cherry_sp.png" ></color>
+			<color name="java" src="filters/cherry_ja.png" ></color>
+			<color name="bordeaux" src="filters/cherry_bo.png" ></color>
+			<color name="choc glaze" src="filters/cherry_cg.png" >
+				<img src="slides/Savannah-Chry-Chocolate.jpg" room="kitchen"/>
+			</color>	
+			
+		</woodtype>
+		
+	</output>
+	<output name="DelRay" style="Urban Elements" src="filters/urban.png"   description="Clean. Uncluttered. Contemporary. Designed along the lines of Mission furniture, Del Ray comes in a wide-framed, full overlay door style with cascading top and bottom rails. Simply striking.">
+
+
+		 <attribute name="Overlay"> <key value="Full Overlay" /> <key value="Full Overlay second " /></attribute>
+		<attribute name="Door"> <key value="Speciality" /> <key value="Speciality Second" /></attribute>
+		 <attribute name="Drawer Front"> <key value="5 door overlay" /> <key value="5 door Overlay second " /></attribute>
+
+		
+		<woodtype name="white" src="filters/white.png" >
+			<color name="white" src="filters/white_w.png" >
+				<img src="slides/Del-Ray-White-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Del-Ray-White-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Del-Ray-White-Kit3.jpg" room="kitchen"/>
+			</color>
+		</woodtype>
+
+		<woodtype name="maple" src="filters/maple.png" >
+			<color name="espresso" src="filters/maple_es.png" ></color>
+			<color name="auburn glaze" src="filters/maple_ag.png" ></color>
+			<color name="cognac" src="filters/maple_co.png" ></color>
+			<color name="mocha glaze" src="filters/maple_mg.png" ></color>
+			<color name="spice" src="filters/maple_sp.png" >
+				<img src="slides/Del-Ray-Maple-Spice-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Del-Ray-Maple-Spice-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Del-Ray-Maple-Spice-Kit3.jpg" room="kitchen"/>
+				<img src="slides/Del-Ray-Maple-Spice-Kit4.jpg" room="kitchen"/>
+				<img src="slides/Del-Ray-Maple-Spice-Kit5.jpg" room="kitchen"/>
+			</color>
+			<color name="coffee glaze" src="filters/maple_cg.png" ></color>
+			<color name="honey" src="filters/maple_ho.png" >
+				<img src="slides/Del-Ray-Maple-Honey-Wall-Desk2.jpg" room="office"/>
+			</color>
+			<color name="natural" src="filters/maple_na.png" ></color>
+				</woodtype>
+
+		<woodtype name="cherry" src="filters/cherry.png" >
+			<color name="spice" src="filters/cherry_sp.png" ></color>
+			<color name="java" src="filters/cherry_ja.png" ></color>
+			<color name="bordeaux" src="filters/cherry_bo.png" ></color>
+			<color name="choc glaze" src="filters/cherry_cg.png" >
+				<img src="slides/Del-Ray-Chy-Choc-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Del-Ray-Chy-Choc-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Del-Ray-Chy-Choc-Kit3.jpg" room="kitchen"/>
+				<img src="slides/Del-Ray-Cherry-Chocolate-Kit.jpg" room="kitchen"/>
+			</color>	
+			
+		</woodtype>
+	</output>
+	<output name="Shorebrook" style="Cottage Charm" src="filters/cottage.png"   description="A traditional, handcrafted look defines the Shorebrook Collection. Solid recessed beadboard panels and a shaker frame in Maple or Hickory can be dressed up or down to match your setting with a variety of finishes, including crisp painted Maple Linen or classic White Thermo Foil.">
+
+
+		 <attribute name="Overlay"> <key value="Full Overlay" /> <key value="Full Overlay second " /></attribute>
+		<attribute name="Door"> <key value="Speciality" /> <key value="Speciality Second" /></attribute>
+		 <attribute name="Drawer Front"> <key value="5 door overlay" /> <key value="5 door Overlay second " /></attribute>
+
+
+		<woodtype name="hickory" src="filters/hickory.png" >
+			<color name="natural" src="filters/hickory_na.png" >
+				<img src="slides/Del-Ray-Chy-Choc-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Del-Ray-Chy-Choc-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Del-Ray-Chy-Choc-Kit3.jpg" room="kitchen"/>
+				<img src="slides/Del-Ray-Cherry-Chocolate-Kit.jpg" room="kitchen"/>
+			</color>
+			<color name="spice" src="filters/hickory_sp.png" ></color>
+			
+		</woodtype>
+		<woodtype name="maple" src="filters/maple.png" >
+			
+			<color name="linen" src="filters/maple_li.png" ></color>
+			<color name="auburn glaze" src="filters/maple_ag.png" ></color>
+			<color name="cognac" src="filters/maple_co.png" ></color>
+			<color name="mocha glaze" src="filters/maple_mg.png" ></color>
+			<color name="spice" src="filters/maple_sp.png" ></color>
+			<color name="coffee glaze" src="filters/maple_cg.png" ></color>
+			<color name="honey" src="filters/maple_ho.png" ></color>
+			<color name="natural" src="filters/maple_na.png" ></color>
+		</woodtype>
+	</output>
+
+	<output name="TownSend" style="Urban Elements" src="filters/urban.png"   description="Simple. Tasteful. Uncompromising. Townsend's full overlay Shaker door style is crafted of solid hardwood with framed doors and drawers. At home in both the town and country, it works with almost any decor.">
+
+
+		 <attribute name="Overlay"> <key value="Full Overlay" /> <key value="Full Overlay second " /></attribute>
+		<attribute name="Door"> <key value="Speciality" /> <key value="Speciality Second" /></attribute>
+		 <attribute name="Drawer Front"> <key value="5 door overlay" /> <key value="5 door Overlay second " /></attribute>
+
+	
+		<woodtype name="cherry" src="filters/cherry.png" >
+			<color name="spice" src="filters/cherry_sp.png" >
+				<img src="slides/Townsend-Cherry-Spice-Kit.jpg" room="kitchen"/>
+			</color>
+			<color name="java" src="filters/cherry_ja.png" ></color>
+			<color name="bordeaux" src="filters/cherry_bo.png" ></color>
+			<color name="choc glaze" src="filters/cherry_cg.png" >
+				<img src="slides/Townsend-Chry-Choc-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Townsend-Chry-Choc.jpg" room="kitchen"/>
+			</color>	
+			
+		</woodtype>
+		<woodtype name="maple" src="filters/maple.png" >
+			
+			<color name="espresso" src="filters/maple_es.png" ></color>
+			<color name="auburn glaze" src="filters/maple_ag.png" >
+				<img src="slides/Townsend-Maple-Auburn-WC1.jpg" room="other"/>
+				<img src="slides/Townsend-Maple-Auburn-WC2.jpg" room="other"/>
+				<img src="slides/Townsend-Maple-Auburn-WC3.jpg" room="other"/>
+				<img src="slides/Townsend-Maple-Auburn-WC4.jpg" room="other"/>
+				<img src="slides/Townsend-Maple-Auburn-WC5.jpg" room="other"/>
+				<img src="slides/Townsend-Maple-Auburn-WC6.jpg" room="other"/>
+				<img src="slides/Townsend-Maple-Auburn-WC7.jpg" room="other"/>
+			</color>
+			<color name="cognac" src="filters/maple_co.png" ></color>
+			<color name="mocha glaze" src="filters/maple_mg.png" ></color>
+			<color name="spice" src="filters/maple_sp.png" ></color>
+			<color name="coffee glaze" src="filters/maple_cg.png" ></color>
+			<color name="honey" src="filters/maple_ho.png" ></color>
+			<color name="natural" src="filters/maple_na.png" ></color>
+		</woodtype>
+	</output>
+
+	<output name="Alexandria" style="Timeless Tradition" src="filters/timeless.png"   description="Traditional. Genteel. Upscale. Alexandria is sure to impress with its full overlay, raised center panel and detailed drawer front. Go for a classic look in cathedral arch or square.">
+
+
+		 <attribute name="Overlay"> <key value="Full Overlay" /> <key value="Full Overlay second " /></attribute>
+		<attribute name="Door"> <key value="Speciality" /> <key value="Speciality Second" /></attribute>
+		 <attribute name="Drawer Front"> <key value="5 door overlay" /> <key value="5 door Overlay second " /></attribute>
+
+
+		<woodtype name="cherry" src="filters/cherry.png" >
+			<color name="spice" src="filters/cherry_sp.png" >
+					<img src="slides/Alexandria-Chry-Spice-CA-Kit.jpg" room="kitchen"/>
+			</color>
+			<color name="java" src="filters/cherry_ja.png" >
+					<img src="slides/Alexandria-Chry-Java-Library2.jpg" room="library"/>
+					<img src="slides/Alexandria-Chry-Java-Library4.jpg" room="library"/>
+					<img src="slides/Alexandria-Chry-Java-Library5.jpg" room="library"/>
+			</color>
+			<color name="bordeaux" src="filters/cherry_bo.png" ></color>
+			<color name="choc glaze" src="filters/cherry_cg.png" ></color>	
+			
+		</woodtype>
+		<woodtype name="maple" src="filters/maple.png" >
+			
+			<color name="espresso" src="filters/maple_es.png" ></color>
+			<color name="auburn glaze" src="filters/maple_ag.png" >
+				<img src="slides/Alexandria-Maple-Auburn-SQ-Kit1.jpg" room="kitchen"/>
+					<img src="slides/Alexandria-Maple-Auburn-SQ-Kit2.jpg" room="kitchen"/>
+					<img src="slides/Alexandria-Maple-Auburn-SQ-Kit3.jpg" room="kitchen"/>
+					<img src="slides/Alexandria-Maple-Auburn-Vanity1.jpg" room="bathroom"/>
+					<img src="slides/Alexandria-Maple-Auburn-Vanity2.jpg" room="bathroom"/>
+					
+			</color>
+			<color name="cognac" src="filters/maple_co.png" ></color>
+			<color name="mocha glaze" src="filters/maple_mg.png" >
+				<img src="slides/Alexandria-Maple-Mocha-Kit.jpg" room="kitchen"/>
+
+			</color>
+			<color name="spice" src="filters/maple_sp.png" >
+				<img src="slides/Alexandria-Maple-Spice-Loft.jpg" room="kitchen"></img>
+			</color>
+			<color name="coffee glaze" src="filters/maple_cg.png" >
+				<img src="slides/Alexandria-Maple-Coffee-CA-Kit1.jpg" room="kitchen"/>
+					<img src="slides/Alexandria-Maple-Coffee-CA-Kit2.jpg" room="kitchen"/>
+					<img src="slides/Alexandria-Maple-Coffee-CA-Kit3.jpg" room="kitchen"/>
+					<img src="slides/Alexandria-Maple-Coffee-CA-Kit4.jpg" room="bathroom"/>
+				
+			</color>
+			<color name="honey" src="filters/maple_ho.png" ></color>
+			<color name="natural" src="filters/maple_na.png" ></color>
+		</woodtype>
+	</output>
+	<output name="Reading" style="American Lane" src="filters/american.png"   description="Here's an elegant, full overlay door style with wide framing that is streamlined, yet reminiscent of enduring craftsmanship. It's a simple take on a time-honored classic.">
+
+
+		 <attribute name="Overlay"> <key value="Full Overlay" /> <key value="Full Overlay second " /></attribute>
+		<attribute name="Door"> <key value="Speciality" /> <key value="Speciality Second" /></attribute>
+		 <attribute name="Drawer Front"> <key value="5 door overlay" /> <key value="5 door Overlay second " /></attribute>
+
+
+
+		<woodtype name="maple" src="filters/maple.png" >
+			<color name="hazelnut glaze" src="filters/maple_hg.png" ></color>
+			<color name="butterscotch glaze" src="filters/maple_bg.png" ></color>
+			<color name="cream glax" src="filters/maple_crg.png" >
+				<img src="slides/Reading-5-pc-Maple-Cream-Kit.jpg" room="kitchen"/>
+				<img src="slides/Reading-Maple-Cream-Kit1.jpg" room="kitchen"/>
+			</color>
+			<color name="linen" src="filters/maple_li.png" >
+				<img src="slides/Reading-Maple-Linen-Desk1.jpg" room="office"/>
+				<img src="slides/Reading-Maple-Linen-Desk2.jpg" room="office"/>
+				<img src="slides/Reading-Maple-Linen-Desk3.jpg" room="office"/>
+				<img src="slides/Reading-Maple-Linen-Desk4.jpg" room="office"/>
+				<img src="slides/Reading-Maple-Linen-Desk5.jpg" room="office"/>
+				<img src="slides/Reading-Maple-Linen-Kit-1.jpg" room="kitchen"/>
+				<img src="slides/Reading-Maple-Linen-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Reading-Maple-Linen-Kit3.jpg" room="kitchen"/>
+				<img src="slides/Reading-Maple-Linen-Kit4.jpg" room="kitchen"/>
+				<img src="slides/Reading-Maple-Linen-Recroom1.jpg" room="other"/>
+				<img src="slides/Reading-Maple-Linen-Vanity1.jpg" room="bathroom"/>
+				<img src="slides/Reading-Maple-Linen-Vanity2.jpg" room="bathroom"/>
+				<img src="slides/Reading-Maple-Linen-Workout1.jpg" room="other"/>
+
+			</color>	
+			<color name="espresso" src="filters/maple_es.png" >
+				<img src="slides/Reading-Maple-Espresso-Kit-8.jpg" room="kitchen"/>
+				<img src="slides/Reading-Maple-Espresso-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Reading-Maple-Espresso-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Reading-Maple-Espresso-Kit3.jpg" room="kitchen"/>
+				<img src="slides/Reading-Maple-Espresso-Kit4.jpg" room="kitchen"/>
+				<img src="slides/Reading-Maple-Espresso-Kit5.jpg" room="kitchen"/>
+				<img src="slides/Reading-Maple-Espresso-Kit6.jpg" room="kitchen"/>
+				<img src="slides/Reading-Maple-Espresso-Kit7.jpg" room="kitchen"/>
+			</color>
+			<color name="auburn glaze" src="filters/maple_ag.png" ></color>
+			<color name="cognac" src="filters/maple_co.png" ></color>
+			<color name="mocha glaze" src="filters/maple_mg.png" ></color>
+			<color name="spice" src="filters/maple_sp.png" ></color>
+			<color name="coffee glaze" src="filters/maple_cg.png" ></color>
+			<color name="honey" src="filters/maple_ho.png" ></color>
+			<color name="natural" src="filters/maple_na.png" ></color>
+		</woodtype>
+
+		<woodtype name="cherry" src="filters/cherry.png" >
+			<color name="spice" src="filters/cherry_sp.png" ></color>
+			<color name="java" src="filters/cherry_ja.png" >
+				<img src="slides/Reading-Chry-Java-Vanity2.jpg" room="bathroom"/>
+			</color>
+			<color name="bordeaux" src="filters/cherry_bo.png" ></color>
+			<color name="choc glaze" src="filters/cherry_cg.png" >
+				<img src="slides/Reading-Chry-Choc.jpg" room="kitchen"/>
+			</color>	
+			
+		</woodtype>
+		<woodtype name="oak" src="filters/oak.png" >
+			<color name="espresso" src="filters/oak_es.png" >
+				<img src="slides/Reading-Oak-Espresso-Vanity1.jpg" room="bathroom"/>
+			</color>
+			<color name="tawny" src="filters/oak_ta.png" >
+				<img src="slides/Reading-Oak-Tawny-BP2.jpg" room="other"/>
+				<img src="slides/Reading-Oak-Tawny-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Reading-Oak-Tawny-Kit2.jpg" room="kitchen"/>
+			</color>
+			<color name="natural" src="filters/oak_na.png" ></color>
+			<color name="honey" src="filters/oak_ho.png" ></color>	
+			
+		</woodtype>
+	</output>
+	<output name="Charlottesville" style="Cottage Charm" src="filters/cottage.png"   description="Bold. Distinctive. Elegant. Made of solid hardwood, Charlottesville's pronounced, full overlay style features a raised center panel in square or gently arched cathedral. Impossible to overlook.">
+
+
+		 <attribute name="Overlay"> <key value="Full Overlay" /> <key value="Full Overlay second " /></attribute>
+		<attribute name="Door"> <key value="Speciality" /> <key value="Speciality Second" /></attribute>
+		 <attribute name="Drawer Front"> <key value="5 door overlay" /> <key value="5 door Overlay second " /></attribute>
+
+
+
+		<woodtype name="white" src="filters/white.png" >
+			<color name="white" src="filters/white_w.png" >
+				<img src="slides/Charlottesville-White-Sq-Kit.jpg" room="kitchen"/>
+			</color>
+		</woodtype>
+		<woodtype name="maple" src="filters/maple.png" >
+			<color name="hazelnut glaze" src="filters/maple_hg.png" >
+				<img src="slides/Charlottesville-Chry-Java_-Map-Hazelnut-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Charlottesville-Chry-Java_-Map-Hazelnut-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Charlottesville-Chry-Java_-Map-Hazelnut-Kit3.jpg" room="kitchen"/>
+				<img src="slides/Charlottesville-Chry-Java_-Map-Hazelnut-Kit4.jpg" room="kitchen"/>
+			</color>
+			<color name="butterscotch glaze" src="filters/maple_bg.png" >
+				<img src="slides/Charlottesville-Maple-Butterscotch-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Charlottesville-Maple-Butterscotch-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Charlottesville-Maple-Butterscotch-Kit3.jpg" room="kitchen"/>
+
+			</color>
+			<color name="cream glax" src="filters/maple_crg.png" ></color>
+			<color name="linen" src="filters/maple_li.png" ></color>	
+			<color name="espresso" src="filters/maple_es.png" ></color>
+			<color name="auburn glaze" src="filters/maple_ag.png" >
+				<img src="slides/Charleston-Maple-Auburn-Vanity.jpg" room="bathroom"/>
+			</color>
+			<color name="cognac" src="filters/maple_co.png" ></color>
+			<color name="mocha glaze" src="filters/maple_mg.png" >
+				<img src="slides/Charlottesville-Maple-Mocha-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Charlottesville-Maple-Mocha-Kit2.jpg" room="kitchen"/>
+			</color>
+			<color name="spice" src="filters/maple_sp.png" >
+				<img src="slides/Charlottesville-Maple-Spice-Desk1.jpg" room="office"/>
+				<img src="slides/Charlottesville-Maple-Spice-Desk2.jpg" room="office"/>
+				<img src="slides/Charlottesville-Maple-Spice-wetbar.jpg" room="other"/>
+			</color>
+			<color name="coffee glaze" src="filters/maple_cg.png" ></color>
+			<color name="honey" src="filters/maple_ho.png" ></color>
+			<color name="natural" src="filters/maple_na.png" >
+				<img src="slides/Charlottesville-Maple-Natural-Kit.jpg" room="kitchen"/>
+			</color>
+		</woodtype>
+		<woodtype name="oak" src="filters/oak.png" >
+			<color name="espresso" src="filters/oak_es.png" >
+				<img src="slides/Charlotteville-Oak-Espresso-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Charlotteville-Oak-Espresso-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Charlotteville-Oak-Espresso-Kit3.jpg" room="kitchen"/>
+				<img src="slides/Charlotteville-Oak-Espresso-Kit4.jpg" room="kitchen"/>
+			</color>
+			<color name="tawny" src="filters/oak_ta.png" ></color>
+			<color name="natural" src="filters/oak_na.png" ></color>
+			<color name="honey" src="filters/oak_ho.png" >
+				<img src="slides/Charlottesville-Oak-Honey-Kit1.jpg" room="kitchen"/>
+			</color>	
+			
+		</woodtype>
+		<woodtype name="cherry" src="filters/cherry.png" >
+			<color name="spice" src="filters/cherry_sp.png" >
+				<img src="slides/Charlottesville-Chry-Spice-Kit1.jpg" room="kitchen"/>
+			</color>
+			<color name="java" src="filters/cherry_ja.png" >
+				<img src="slides/Charlottesville-Chry-Java_-Map-Hazelnut-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Charlottesville-Chry-Java_-Map-Hazelnut-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Charlottesville-Chry-Java_-Map-Hazelnut-Kit3.jpg" room="kitchen"/>
+				<img src="slides/Charlottesville-Chry-Java_-Map-Hazelnut-Kit4.jpg" room="kitchen"/>
+			</color>
+			<color name="bordeaux" src="filters/cherry_bo.png" >
+				<img src="slides/Charlottesville-Chry-Bordeaux-CA-Kit.jpg" room="kitchen"/>
+			</color>
+			<color name="choc glaze" src="filters/cherry_cg.png" ></color>	
+			
+		</woodtype>
+		<woodtype name="hickory" src="filters/hickory.png" >
+			<color name="natural" src="filters/hickory_na.png" ></color>
+			<color name="spice" src="filters/hickory_sp.png" >
+				<img src="slides/Charlottesville-Hick-Spice-Kit1.jpg" room="kitchen"/>
+			</color>
+			
+		</woodtype>
+	</output>
+<output name="Hanover" style="Timeless Tradition" src="filters/timeless.png"   description="Sleek. Urban. Chic. Hanover features a full overlay slab door style that is unmistakably modern. Marked by clean lines, it's the perfect complement to contemporary living. ">
+
+
+		 <attribute name="Overlay"> <key value="Full Overlay" /> <key value="Full Overlay second " /></attribute>
+		<attribute name="Door"> <key value="Speciality" /> <key value="Speciality Second" /></attribute>
+		 <attribute name="Drawer Front"> <key value="5 door overlay" /> <key value="5 door Overlay second " /></attribute>
+
+
+		<woodtype name="cherry" src="filters/cherry.png" >
+			
+			<color name="java" src="filters/cherry_ja.png" ></color>
+			<color name="bordeaux" src="filters/cherry_bo.png" ></color>
+			<color name="spice" src="filters/cherry_sp.png" >
+				<img src="slides/Hanover-Chry-Spice-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Hanover-Chry-Spice-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Hanover-Chry-Spice-Kit3.jpg" room="kitchen"/>
+				<img src="slides/Hanover-Chry-Spice-Kit4.jpg" room="kitchen"/>
+				<img src="slides/Hanover-Chry-Spice-Kit5.jpg" room="kitchen"/>
+				<img src="slides/Hanover-Chry-Spice-Kit6.jpg" room="kitchen"/>
+				<img src="slides/Hanover-Chry-Spice-Kit7.jpg" room="kitchen"/>
+			</color>
+		</woodtype>
+		<woodtype name="maple" src="filters/maple.png" >
+			<color name="natural" src="filters/maple_na.png" ></color>
+			<color name="espresso" src="filters/maple_es.png" ></color>
+			<color name="cognac" src="filters/maple_co.png" ></color>
+			<color name="honey" src="filters/maple_ho.png" >
+				<img src="slides/Hanover-Maple-Honey-Van1.jpg" room="bathroom"/>
+				<img src="slides/Hanover-Maple-Honey-Van2.jpg" room="bathroom"/>
+				<img src="slides/Hanover-Maple-Honey-Van4.jpg" room="bathroom"/>
+				<img src="slides/Hanover-Maple-Honey-Van6.jpg" room="bathroom"/>
+				<img src="slides/Hanover-Maple-Honey-Van7.jpg" room="bathroom"/>
+			</color>
+			
+		</woodtype>
+	</output>
+	<output name="Newport" style="Urban Elements" src="filters/urban.png"   description="Gracious. Lovely. Dignified. A standard overlay gives Newport a more traditional look in square or cathedral detailing. Popular both inland and on the coast - and priced exceptionally well, too.">
+
+
+		 <attribute name="Overlay"> <key value="Full Overlay" /> <key value="Full Overlay second " /></attribute>
+		<attribute name="Door"> <key value="Speciality" /> <key value="Speciality Second" /></attribute>
+		 <attribute name="Drawer Front"> <key value="5 door overlay" /> <key value="5 door Overlay second " /></attribute>
+
+
+
+		<woodtype name="maple" src="filters/maple.png" >
+			<color name="hazelnut glaze" src="filters/maple_hg.png" >
+				<img src="slides/Newport-Maple-Hazelnut-Wetbar.jpg" room="other"/>
+			</color>
+			<color name="butterscotch glaze" src="filters/maple_bg.png" ></color>
+			<color name="cream glax" src="filters/maple_crg.png" ></color>
+			<color name="linen" src="filters/maple_li.png" >
+				<img src="slides/Newport-Maple-Linen-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Newport-Maple-Linen-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Newport-Maple-Linen-Kit3.jpg" room="kitchen"/>
+				<img src="slides/Newport-Maple-Linen-Kit4.jpg" room="kitchen"/>
+				<img src="slides/Newport-Maple-Linen-Kit5.jpg" room="kitchen"/>
+			</color>	
+			<color name="espresso" src="filters/maple_es.png" ></color>
+			<color name="auburn glaze" src="filters/maple_ag.png" >
+				<img src="slides/Newport-Maple-Auburn-FP.jpg" room="other"/>
+			</color>
+			<color name="cognac" src="filters/maple_co.png" >
+				<img src="slides/Newport-Maple-Cognac-FP.jpg" room="other"/>
+				<img src="slides/Newport-Maple-Cognac-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Newport-Maple-Cognac-Kit2.jpg" room="kitchen"/>
+			</color>
+			<color name="mocha glaze" src="filters/maple_mg.png" >
+				<img src="slides/Newport-Maple-Mocha-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Newport-Maple-Mocha-Kit2.jpg" room="kitchen"/>
+				<img src="slides/Newport-Maple-Mocha-Kit3.jpg" room="kitchen"/>
+			</color>
+			<color name="spice" src="filters/maple_sp.png" >
+				<img src="slides/Newport-Maple-Spice-sq-kit.jpg" room="kitchen"/>
+			</color>
+			<color name="coffee glaze" src="filters/maple_cg.png" ></color>
+			<color name="honey" src="filters/maple_ho.png" ></color>
+			<color name="natural" src="filters/maple_na.png" >
+				<img src="slides/Newport-Maple-Natural-Kit.jpg" room="kitchen"/>
+			</color>
+		</woodtype>
+		<woodtype name="cherry" src="filters/cherry.png" >
+			<color name="spice" src="filters/cherry_sp.png" ></color>
+			<color name="java" src="filters/cherry_ja.png" ></color>
+			<color name="bordeaux" src="filters/cherry_bo.png" ></color>
+			<color name="choc glaze" src="filters/cherry_cg.png" >
+				<img src="slides/Newport-Chry-Choc-CA-Kit.jpg" room="kitchen"/>
+				<img src="slides/Newport-Chry-Choc-Kit1.jpg" room="kitchen"/>
+				<img src="slides/Newport-Chry-Choc-Kit3.jpg" room="kitchen"/>
+				<img src="slides/Newport-Chry-Choc-Kit4.jpg" room="kitchen"/>
+				<img src="slides/Newport-Chry-Choc-Kit5.jpg" room="kitchen"/>
+				<img src="slides/Newport-Chry-Choc-Kit6.jpg" room="kitchen"/>
+			</color>	
+			
+		</woodtype>
+		<woodtype name="white" src="filters/white.png" >
+			<color name="white" src="filters/white_w.png" >
+				<img src="slides/Newport-White-small-kit.jpg" room="kitchen"/>
+				<img src="slides/Newport-White-Sq-Kit.jpg" room="kitchen"/>
+			</color>
+		</woodtype>
+		<woodtype name="hickory" src="filters/hickory.png" >
+			<color name="natural" src="filters/hickory_na.png" ></color>
+			<color name="spice" src="filters/hickory_sp.png" ></color>
+			
+		</woodtype>
+		<woodtype name="oak" src="filters/oak.png" >
+			<color name="espresso" src="filters/oak_es.png" ></color>
+			<color name="tawny" src="filters/oak_ta.png" ></color>
+			<color name="natural" src="filters/oak_na.png" ></color>
+			<color name="honey" src="filters/oak_ho.png" ></color>	
+			
+		</woodtype>
+	</output>
+	<output name="Portland" style="American Lane" src="filters/american.png"   description="Rustic. Charming. Refined. Portland is adorned with a detailed triple waterfall edge treatment and standard overlay styling.  When the compliments roll in, you'll gush with pride. ">
+
+
+
+		 <attribute name="Overlay"> <key value="Full Overlay" /> <key value="Full Overlay second " /></attribute>
+		<attribute name="Door"> <key value="Speciality" /> <key value="Speciality Second" /></attribute>
+		 <attribute name="Drawer Front"> <key value="5 door overlay" /> <key value="5 door Overlay second " /></attribute>
+
+
+
+		<woodtype name="cherry" src="filters/cherry.png" >
+			<color name="spice" src="filters/cherry_sp.png" ></color>
+			<color name="java" src="filters/cherry_ja.png" ></color>
+			<color name="bordeaux" src="filters/cherry_bo.png" ></color>
+			<color name="choc glaze" src="filters/cherry_cg.png" ></color>	
+			
+		</woodtype>
+		<woodtype name="oak" src="filters/oak.png" >
+			<color name="espresso" src="filters/oak_es.png" ></color>
+			<color name="tawny" src="filters/oak_ta.png" ></color>
+			<color name="natural" src="filters/oak_na.png" ></color>
+			<color name="honey" src="filters/oak_ho.png" >
+				<img src="slides/Portland-Oak-Honey-Kit.jpg" room="kitchen"/>
+			</color>	
+			
+		</woodtype>
+		<woodtype name="maple" src="filters/maple.png" >
+			<color name="espresso" src="filters/maple_es.png" ></color>
+			<color name="auburn glaze" src="filters/maple_ag.png" ></color>
+			<color name="cognac" src="filters/maple_co.png" ></color>
+			<color name="mocha glaze" src="filters/maple_mg.png" ></color>
+			<color name="spice" src="filters/maple_sp.png" ></color>
+			<color name="coffee glaze" src="filters/maple_cg.png" ></color>
+			<color name="honey" src="filters/maple_ho.png" >
+				<img src="slides/Portland-Maple-Honey-Kit.jpg" room="kitchen"/>
+			</color>
+			<color name="natural" src="filters/maple_na.png" ></color>
+
+		</woodtype>
+		
+	</output>
+	<output name="Ashland" style="American Lane" src="filters/american.png"   description="Warm. Traditional. Inviting.  Ashland features a recessed center panel surrounded by a detailed cascading frame. A welcome look in standard overlay, offered at an unpretentious price. ">
+
+		
+		 <attribute name="Overlay"> <key value="Full Overlay" /> <key value="Full Overlay second " /></attribute>
+		<attribute name="Door"> <key value="Speciality" /> <key value="Speciality Second" /></attribute>
+		 <attribute name="Drawer Front"> <key value="5 door overlay" /> <key value="5 door Overlay second " /></attribute>
+
+		
+		<woodtype name="cherry" src="filters/cherry.png" >
+			<color name="spice" src="filters/cherry_sp.png" >
+				<img src="slides/Ashland-Chry-Spice-Kit.jpg" room="kitchen"/>
+				<img src="slides/Ashland-Chry-Spice-Laundry.jpg" room="kitchen"/>
+			</color>
+			<color name="java" src="filters/cherry_ja.png" ></color>
+			<color name="bordeaux" src="filters/cherry_bo.png" ></color>
+			<color name="choc glaze" src="filters/cherry_cg.png" ></color>	
+			
+		</woodtype>
+		<woodtype name="oak" src="filters/oak.png" >
+			<color name="espresso" src="filters/oak_es.png" ></color>
+			<color name="tawny" src="filters/oak_ta.png" ></color>
+			<color name="natural" src="filters/oak_na.png" >
+				<img src="slides/Ashland-Oak-Natural-Kit1.jpg" room="kitchen"/>
+			</color>
+			<color name="honey" src="filters/oak_ho.png" ></color>	
+			
+		</woodtype>
+		<woodtype name="maple" src="filters/maple.png" >
+			<color name="espresso" src="filters/maple_es.png" ></color>
+			<color name="auburn glaze" src="filters/maple_ag.png" ></color>
+			<color name="cognac" src="filters/maple_co.png" >
+
+				<img src="slides/Ashland-Maple-Cognac-Vignette1.jpg" room="other"/>
+				<img src="slides/Ashland-Maple-Cognac-Vignette2.jpg" room="other"/>
+				<img src="slides/Ashland-Maple-Cognac-Vignette3.jpg" room="other"/>
+				<img src="slides/Ashland-Maple-Cognac-Vignette4.jpg" room="other"/>
+				<img src="slides/Ashland-Maple-Cognac-Vignette5.jpg" room="other"/>
+			</color>
+			<color name="mocha glaze" src="filters/maple_mg.png" ></color>
+			<color name="spice" src="filters/maple_sp.png" >
+				<img src="slides/Ashland-Maple-Spice-CA-Kit.jpg" room="kitchen"/>
+				<img src="slides/Ashland-Maple-Spice-Vanity1.jpg" room="bathroom"/>
+			</color>
+			<color name="coffee glaze" src="filters/maple_cg.png" ></color>
+			<color name="honey" src="filters/maple_ho.png" ></color>
+			<color name="natural" src="filters/maple_na.png" >
+				<img src="slides/Ashland-Maple-Natural-Kit.jpg" room="kitchen"/>
+			</color>
+
+		</woodtype>
+	</output>
+
+<!-- 	hotspot fix -->
+	
+	<hotspots>
+		<img src="slides/Ashland-Maple-Cognac-Vignette1.jpg" room="other">
+
+					<spot src="images/check.png" text="This is the sample text" left="50%" top="50%" />
+					<spot src="images/check.png" text="This is the sample text" left="25%" top="25%" />
+		 </img>
+				<img src="slides/Ashland-Maple-Natural-Kit.jpg" room="kitchen">
+
+					<spot src="images/check.png" text="This is the sample text" left="50%" top="50%" />
+					<spot src="images/check.png" text="This is the sample text" left="25%" top="25%" />
+		 </img>
+				<img src="slides/Ashland-Maple-Spice-Vanity1.jpg" room="bathroom">
+
+					<spot src="images/check.png" text="This is the sample text" left="50%" top="50%" />
+					<spot src="images/check.png" text="This is the sample text" left="25%" top="25%" />
+		 </img>
+		 		<img src="slides/Ashland-Maple-Cognac-Vignette1.jpg" room="other">
+
+					<spot src="images/check.png" text="This is the sample text" left="50%" top="50%" />
+
+		 </img>
+				<img src="slides/Ashland-Maple-Spice-CA-Kit.jpg" room="kitchen">
+
+					<spot src="images/check.png" text="This is the sample text" left="50%" top="50%" />
+					<spot src="images/check.png" text="This is the sample text" left="25%" top="25%" />
+		 </img>
+        <img src="slides/Portland-Maple-Honey-Kit.jpg" room="kitchen">
+            <spot src="images/check.png" text="This is the sample text" left="50%" top="50%" />
+            <spot src="images/check.png" text="This is the sample text" left="25%" top="25%" />
+        </img>
+		
+	</hotspots>
+	
+</esperesso>

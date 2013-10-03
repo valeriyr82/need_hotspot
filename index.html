@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+   
+
+    <!-- Declare page as iDevice WebApp friendly -->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <!-- Page Title -->
+    <title>American Woodmark</title>
+    <!-- Stylesheet Load -->
+    <link href="css/style.css"                rel="stylesheet"     type="text/css">
+    <link class="rs-file" href="css/royalslider.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+<div ng-controller="filterCtrl">
+<div id="info" style="position:fixed;width:100%;height:100%;left:-10px;top:-5px;z-index:9999;display:none;overflow:visible"><img src="images/bg.png" style="width:101%;height:101%"></div>
+<div class="db" style="display:none"></div> 
+<div class="wrapper">
+<div class="header">
+    <a href="#" class="deploy-left-sidebar" ></a>
+    <a href="#" class="deploy-right-sidebar"></a>
+    <div class="top-logo"><div style="width: 236px; margin: 0 auto; position:relative;"><img src="images/logo.png"/></div></div>
+</div>
+<div class="hot">
+    <div class="click panel circle flip" >
+        <a class="hotclose"></a>
+        <a class="hotflip"></a>
+        <div class="front">
+            <p>Lorem ipsum dolor: sit amet, consectetur adipiscing elit. Donec blandit, ligula nec mattis sagittis.
+
+Phasellus vel leo condimentum est rhoncus tincidunt sed sed lectus. Aliquam erat volutpat. Mauris ut elit sit amet justo eleifend aliquet. Maecenas a leo quis justo pulvinar tristique. Praesent vitae dui sit amet sapien consequat condimentum.
+
+Sed ut fermentum tellus. Donec pharetra commodo diam, fringilla interdum mi laoreet ut. Fusce sed erat nisi, id gravida nulla. Donec </p>
+        </div>
+        <div class="back">
+            <img class="im" src="images/hotimage.jpg">
+        </div>
+    </div>
+</div>
+
+	<div class="content-box shadow">
+		<div class="content"  style="position:relative;">
+			<div class="sliderContainer fullWidth clearfix">
+				<div id="full-width-slider" class="royalSlider heroSlider rsMinW"></div>
+				<div ng-hide="imageCollection.length">No Images Found</div>
+                <div id="sliderLodingNoticication"><img src="images/loading.gif"/></div>
+			</div>
+			<div ng-hide="learnSelected" id="navcontainer">
+				<div class="infoBlock infoBlockLeftBlack rsABlock" id="rsImg" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+					<div class="inner-infoblock1">
+						<h4>{{topInfoBlock.title}}</h4>
+						<p>{{topInfoBlock.description}}</p>
+					</div>
+					<div class="inner-infoblock2" data-filter="kitchen">
+						<h4>ATTRIBUTES</h4>
+						<ul id="minus" ng-bind-html-unsafe="topInfoBlock.attributs">						
+							
+						</ul>
+					</div>
+				</div>
+				<div id="navigation">
+					<div class="left-nav"><a href="#" id="do_minus" class="ui-link" style="display:inline"><img id="pom" src="images/plus.png" alt=""></a></div>
+					<div class="nav-links" id="dynamic"><a href="#" class="ui-link">COLLECTION: <span id="dyn_coll">Green</span></a> <a href="#" class="ui-link"><span class="bull">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>SPECIES: <span id="dyn_spe">Wood</span></a>  <a href="#" class="ui-link"><span class="bull">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>COLOR: <span id="dyn_color">Green</span></a></div>
+					<div class="clear"></div>
+				</div>
+			</div>    
+		</div>
+	</div>
+	<div class="sidebar-left">
+		<div class="sidebar-scroll-left">
+			<div id="divexample1" tabindex="5000" style="margin-bottom:75px;width:367px;" >
+				<h1>BROWSE<br>COLLECTIONS<br><span>BY ROOMS</span></h1>
+				<div class="left-nav filter">
+					<ul class="left-filter">
+						<li ng-repeat="room in roomsArray() | orderBy:'priority'">
+							<label class="select-{{room.selected}} ui-link">
+								<input type="checkbox" ng-model="room.selected" ng-tap="updateRoomCheck(room); updateImageByRoom(room);">
+								<span class="num">{{room.count}}</span>
+								{{room.text}}
+							</label>
+						</li>
+					</ul>
+				</div>
+				<div class="left-divider">&nbsp;</div>
+				<h1 class="learn"><span>LEARN</span></h1>
+				<div class="left-nav">
+                    <ul class="left-filter">
+                        <li ng-repeat="learn in learnsArray() | orderBy:'priority'">
+                            <label class="select-{{learn.selected}} ui-link" ng-tap="updateLearnCheck(learn); updateImageByLearn(learn);">
+
+                                <span class="num">{{learn.collection.length}}</span>
+                                {{learn.text}}
+                            </label>
+                        </li>
+                    </ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="sidebar-right">
+		<div class="sidebar-scroll-right">
+			<div id="divexample1" tabindex="5000" style="" >
+				<div class="menu_rightbar" id="rightmodal">
+					<h1>FILTER<br>COLLECTIONS</h1>
+					<div class="divider">&nbsp; </div>
+					<div class="menu_rightbar_content">
+						<h2>Styles</h2>
+						<div class="text_holder">
+							<div class="style_heading">
+								<div class="text1">SELECTED: </div>
+								<div class="text2 style_count">
+									<div ng-repeat="style in woodStyles | filter:{selected:true}">{{style.text}}<span style="margin-left:5px;">{{style.count}}</span></div>
+								</div>
+								<div class="text3"  name="style_clear">
+									<a ng-hide="woodStyles[0].selected" href="#" class="ui-link" ng-tap="clearRoomFilter(); clearLearnFilter(); clearStyleFilter(); updateImage();">clear</a>
+									<a ng-show="woodStyles[0].selected" href="#" class="ui-link clear_none">clear</a>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="style_images">
+								<ul id="wood_style">
+									<li ng-repeat="style in woodStyles" class="filter-selected-{{style.selected}}">
+										<label>
+											<input type="checkbox" ng-model="style.selected" ng-tap="fixCheckIssue(woodStyles, style); updateFilter(); updateImage();">
+											<span class="label">{{style.text}}</span><img src="images/{{style.src}}" />
+											<img class="check" src="./images/check.png" ng-show="style.selected" />
+										</label>
+									</li>
+									<div class="clear"></div>
+								</ul>
+							</div>
+						</div>
+						<div class="divider">&nbsp; </div>
+						<h2>Wood Types</h2>
+						<div class="text_holder">
+							<div class="style_heading">
+								<div class="text1">SELECTED: </div>
+								<div class="text2 type_count">
+									<div ng-repeat="type in woodTypes | filter:{selected:true}">{{type.text}}<span style="margin-left:5px;">{{type.count}}</span></div>
+								</div>
+								<div class="text3"  name="type_clear">
+									<a ng-hide="woodTypes[0].selected" href="#" class="ui-link" ng-tap="clearRoomFilter(); clearLearnFilter(); clearTypeFilter(); updateImage();">clear</a>
+									<a ng-show="woodTypes[0].selected" href="#" class="ui-link clear_none">clear</a>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="style_images">
+								<ul  id="wood_type">
+									<li ng-repeat="type in woodTypes" class="filter-selected-{{type.selected}}">
+										<label>
+											<input type="checkbox" ng-model="type.selected" ng-tap="fixCheckIssue(woodTypes, type); updateFilter(); updateImage();">
+											<span class="label">{{type.text}}</span><img src="images/{{type.src}}" />
+											<img class="check" src="./images/check.png" ng-show="type.selected" />
+										</label>
+									</li>
+									<div class="clear"></div>  
+								</ul>
+							</div>
+						</div>
+						<div class="divider">&nbsp; </div>
+						<h2>Colors</h2>
+						<div class="text_holder">
+							<div class="style_heading">
+								<div class="text1">SELECTED: </div>
+								<div class="text2 color_count">
+									<div ng-repeat="color in woodColors | filter:{selected:true}">{{color.text}}<span style="margin-left:5px;">{{color.count}}</span></div>
+								</div>
+								<div class="text3" name="color_clear">
+									<a ng-hide="woodColors[0].selected" href="#" class="ui-link" ng-tap="clearColorFilter(); updateImage();">clear</a>
+									<a ng-show="woodColors[0].selected" href="#" class="ui-link clear_none">clear</a>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="style_images">
+								<ul  id="wood_color">
+									<li ng-repeat="color in woodColors" class="filter-selected-{{color.selected}}">
+										<label>
+											<input type="checkbox" ng-model="color.selected" ng-tap="fixCheckIssue(woodColors, color); updateFilter(); updateImage();">
+											<span class="label" ng-show="color.text=='All'">{{color.text}}</span><img src="images/{{color.src}}" />
+											<img class="check" src="./images/check.png" ng-show="color.selected" />
+										</label>
+									</li>
+									<div class="clear"></div>
+								</ul>
+							</div>
+						</div>
+						<div class="divider">&nbsp; </div>
+						<div class="text_holder" style="margin-left:30px;">
+							<div class="collection_available">
+								<h2>COLLECTIONS AVAILABLE: </h2>
+								<ul id="availabel_list">
+									<li ng-repeat="collection in woodCollections" class="filter-selected-{{collection.selected}}">
+										<label style="color:#f5821f"><input type="checkbox" ng-model="collection.selected" ng-tap="updateImage();">{{collection.text}}</label>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<a href="#" id="iicon" class="deploy-info-sidebar"></a>
+		<a href="#" class="deploy-order-sidebar"></a>
+		<div class="top-logo2">
+			<!--<div id="rooms">
+			<span id="displayed_room">All Rooms</span>
+			<a class="av" href="#">3</a> of <a class="total" href="#">325</a><a id="resetAll" href="#" class="ui-link" style="margin-left:5px">CLEAR</a>
+			</div>-->
+			<div id="rooms">
+				<span id="displayed_room">{{pannel.name}}</span>
+				<a class="av" href="#">{{pannel.index}}</a> of <a class="total" href="#">{{pannel.count}}</a>
+				<a id="resetAll" href="#" class="ui-link" style="margin-left:5px" ng-tap="clearRoomFilter(); clearCommonFilter(); clearLearnFilter(); resetImageCollection();">CLEAR</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
+<!--Page Scripts Load -->
+<!--<script src="cordova.js"        type="text/javascript"></script>-->
+
+<script src="js/jquery.min.js"        type="text/javascript"></script>
+<script src="js/jquery-ui-min.js"  type="text/javascript"></script>
+
+<script class="rs-file" src="js/jquery.royalslider.min.js"></script>
+<script src="js/jquery.rwdImageMaps.js"></script>
+
+<script src="lib/angular.js"></script>
+<script src="lib/xml2json.js"></script>
+
+<script type="text/javascript" src="js/push.js"></script>
+<script type="text/javascript" src="js/filter.js"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/retina.js" type="text/javascript"></script>
+
+
+<script>
+    document.addEventListener("deviceready", function(){$('.wrapper').fadeIn('fast');}, false);
+    $('.deploy-order-sidebar').on('click touchstart', function(){
+                                  
+                                window.open('http://mbharsahab.mediabarndev.com/awc', '_blank', 'location=no');
+                                  });
+   
+    
+    
+    </script>
